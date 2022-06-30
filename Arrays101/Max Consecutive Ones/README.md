@@ -43,8 +43,9 @@
 ----
 
 **How I Could Of Made This Better:**
-	
-	A) One way I discovered how to make this code better is by rewriting the for loop. Making a simple "For x in nums:" will cut down on the time it takes to write the code. Next, I found replace the if statement that checks if the counter is greater than the max counter. There is a max function that can be used that takes less runtime to compute which value is greater. Please view below to see how to implement this into the previous code provided.
+
+One way I discovered how to make this code better is by rewriting the for loop.
+Making a simple "For x in nums:" will cut down on the time it takes to write the code. Next, I found replace the if statement that checks if the counter is greater than the max counter. There is a max function that can be used that takes less runtime to compute which value is greater. Please view below to see how to implement this into the previous code provided.
 
 **Better Code:**
 	
