@@ -1,4 +1,5 @@
 **Pre-Planning:**
+	
 	A) To start, I knew I needed to have a counter for this problem. 
 	B) Next, I thought I would need to initalize a loop in order to go through the whole array
 	C) Next, I thought I should have a comparison to see if the next array element is a 0 or 1
@@ -6,6 +7,7 @@
 	E) Lastly, I knew if the count was zero, I would need to reset the counter
 	
 **Explanation:**
+	
 	A) Using my preplanning, I started by initalizing a counter, and a max counter I discovered in step D of my preplanning
 	B) From here, I started my for loop that went to the end of the array
 	C) Next, I used an if statement to check if the current element the loop is on if a 1 or 0. 
