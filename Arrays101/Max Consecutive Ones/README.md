@@ -1,6 +1,5 @@
 **Pre-Planning:**
 	A) To start, I knew I needed to have a counter for this problem. 
-
 	B) Next, I thought I would need to initalize a loop in order to go through the whole array
 	C) Next, I thought I should have a comparison to see if the next array element is a 0 or 1
 	D) Lastly, I figured that if the number is 1, I would need to increment the counter, but also check if the current count is greater than the overall max count. From here, I realized I will need to add a second counter in order to store the maximum count. Check the "How I could of made this better" section to see a better way of going about this
