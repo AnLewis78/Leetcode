@@ -3,11 +3,10 @@ def containsDuplicate(nums):
         :type nums: List[int]
         :rtype: bool
         """
-        while len(nums) != 0:
-            i = nums[0]
-            nums.pop(0)
-            if i in nums and len(nums) > 0:
-                return True
+        for i in range(len(nums)):
+            for j in range(i+1, len(nums)):
+                if nums[i] == nums[j]:
+                    return True
         return False
 
 # Case 1
