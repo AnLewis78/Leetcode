@@ -3,7 +3,16 @@ def containsDuplicate(nums):
         :type nums: List[int]
         :rtype: bool
         """
-        pass
+        
+        for i in range(len(nums)):
+            count = 0
+            if nums[i] in nums:
+                for x in nums:
+                    if x == nums[i]:
+                        count+= 1
+                if count > 1:
+                    return True
+        return False
 
 # Case 1
 print(containsDuplicate([1,2,3,1]))
